@@ -1,0 +1,17 @@
+/* Colors variables */
+:root{
+--color-white: #ffffff;
+--color-light-gray: #fafafa;
+--color-gray: #f1f1f1;
+--color-black: #101010;
+--color-black-black: #000000;
+}
+
+*,
+html,
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
