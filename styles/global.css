@@ -1,10 +1,19 @@
 /* Colors variables */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Sono:wght@300;400;500;700&display=swap');
+
 :root{
+  /* Colors Variables */
 --color-white: #ffffff;
 --color-light-gray: #fafafa;
 --color-gray: #f1f1f1;
 --color-black: #101010;
 --color-black-black: #000000;
+--orange: #D87D4A;
+--light-orange: #fbaf85;
+
+/* Font Variables */
+--font-family: 'Manrope', sans-serif;
+--font-family-sono: 'Sono', sans-serif;
 }
 
 *,
@@ -13,5 +22,6 @@ body{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: var(--font-family);
 }
 
